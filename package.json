@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "xdesk_fm",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "dev": "yarn workspace app dev \"yarn workspace app start:dev\"",
+    "build": "yarn workspace app build",
+    "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
+  },
+  "workspaces": ["packages/*"],
+  "dependencies": {
+    "concurrently": "4.1.0"
+  }
+}

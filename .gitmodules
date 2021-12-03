@@ -1,3 +1,6 @@
-[submodule "https:/github.com/bresnow/cnxt.git"]
-	path = https:/github.com/bresnow/cnxt.git
-	url = ./packages/app
+[submodule "app"]
+	path = /Volumes/βτεsηΘω./Projects/XDESK/packages/app
+	url = https://github.com/bresnow/cnxt.git
+[submodule "gun server"]
+	path = /Volumes/βτεsηΘω./Projects/XDESK/packages/peer-server
+	url = https://github.com/bresnow/studious-dollop.git
