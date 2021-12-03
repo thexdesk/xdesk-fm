@@ -2,7 +2,7 @@ FROM node:14-alpine
 
 USER root
 
-COPY ./cnxt-app /app
+COPY ./packages/app /app
 WORKDIR /app
 RUN yarn install \
     && yarn build
